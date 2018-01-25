@@ -1,0 +1,11 @@
+---
+HOSTS:
+  ubuntu16:
+    roles:
+      - default
+    platform: ubuntu-16.04-amd64
+    hypervisor: vagrant
+    box: bento/ubuntu-16.04
+    vagrant_memsize: 384
+CONFIG:
+  type: aio

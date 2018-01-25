@@ -1,0 +1,13 @@
+current directory: /Users/lbetz/puppetcode/modules/icinga2/.vendor/ruby/2.4.0/gems/json-1.8.6/ext/json
+/Users/lbetz/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180112-29255-glg2n9.rb extconf.rb
+creating Makefile
+
+current directory: /Users/lbetz/puppetcode/modules/icinga2/.vendor/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/lbetz/puppetcode/modules/icinga2/.vendor/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/lbetz/puppetcode/modules/icinga2/.vendor/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

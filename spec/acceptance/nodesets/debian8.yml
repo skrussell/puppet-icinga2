@@ -1,0 +1,11 @@
+---
+HOSTS:
+  debian8:
+    roles:
+      - default
+    platform: debian-8-amd64
+    hypervisor: vagrant
+    box: bento/debian-8.7
+    vagrant_memsize: 384
+CONFIG:
+  type: aio

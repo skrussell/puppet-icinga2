@@ -1,0 +1,11 @@
+---
+HOSTS:
+  ubuntu14:
+    roles:
+      - default
+    platform: ubuntu-14.04-amd64
+    hypervisor: vagrant
+    box: bento/ubuntu-14.04
+    vagrant_memsize: 384
+CONFIG:
+  type: aio

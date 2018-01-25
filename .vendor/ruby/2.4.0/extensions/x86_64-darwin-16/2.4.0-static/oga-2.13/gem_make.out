@@ -1,0 +1,16 @@
+current directory: /Users/lbetz/puppetcode/modules/icinga2/.vendor/ruby/2.4.0/gems/oga-2.13/ext/c
+/Users/lbetz/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180112-29255-r5hwdg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/lbetz/puppetcode/modules/icinga2/.vendor/ruby/2.4.0/gems/oga-2.13/ext/c
+make "DESTDIR=" clean
+
+current directory: /Users/lbetz/puppetcode/modules/icinga2/.vendor/ruby/2.4.0/gems/oga-2.13/ext/c
+make "DESTDIR="
+compiling lexer.c
+compiling liboga.c
+linking shared-object liboga.bundle
+
+current directory: /Users/lbetz/puppetcode/modules/icinga2/.vendor/ruby/2.4.0/gems/oga-2.13/ext/c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 liboga.bundle ./.gem.20180112-29255-1jzg4zr
