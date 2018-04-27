@@ -1,0 +1,11 @@
+---
+HOSTS:
+  sles12:
+    roles:
+      - default
+    platform: sles-12-amd64
+    hypervisor: vagrant
+    box: http://boxes.icinga.com/vagrant/sles/sles-12-sp2-x64-virtualbox.box
+    vagrant_memsize: 384
+CONFIG:
+  type: aio

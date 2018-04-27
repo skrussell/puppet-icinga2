@@ -23,6 +23,10 @@ RSpec.configure do |c|
         on(host, puppet('module', 'install', 'puppetlabs-apt'))
       end
 
+      if fact('osfamily') == 'Suse'
+        on(host, puppet('module', 'install', 'puppet-zypprepo'))
+      end
+
       # Add more setup code as needed
     end
   end
