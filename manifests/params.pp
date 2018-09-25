@@ -104,7 +104,7 @@ class icinga2::params {
           $bin_dir = $::operatingsystemmajrelease ? {
             '5'     => '/usr/sbin',
             '6'     => '/usr/sbin',
-            default => '/sbin',
+            default => [ '/sbin', '/bin' ],
           }
           $lib_dir = $::architecture ? {
             'x86_64' => '/usr/lib64',
